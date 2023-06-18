@@ -1,15 +1,17 @@
 /**
- * SYST 17796 Project Base code.
- * Students can modify and extend to implement their game.
- * Add your name as an author and the date!
+ * This is the abstract class of the game which will contain the abstract methods and the non abstract methods.
+ * Look this class will not be changed to an interface as it will have non abstract methods.
+ * @author Pankaj yadav
+ * @author Jasmeet kaur
+ * @author Lovepreet Kaur
+ * @author Harmanpreet Kaur
  */
 package ca.sheridancollege.project;
 
 /**
- * A class that models each Player in the game. Players have an identifier, which should be unique.
- *
- * @author dancye
- * @author Paul Bonenfant Jan 2020
+ * This class will model the other player of the game.
+ * As only two players are allowed to play this game as per the rules.
+ * This class will contain the non abstract methods for setters.
  */
 public abstract class Player {
 
